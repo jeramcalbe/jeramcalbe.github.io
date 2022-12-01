@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +7,7 @@
 
 html {
     font-size: 10px;
-    font-family: 'Times New Roman';
+    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
