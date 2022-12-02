@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/Images/icon-logo.jpg" type="icon/x-icon">
     <title>Portfolio Website - Jeram</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -52,22 +53,22 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas possimus tempore vero maxime similique adipisci amet, temporibus blanditiis sequi laborum.</p>
                 </div>
                 <div class="service-bottom">
-                    <div class="service-item">
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="50">
                         <div class="icon"><img src="/Images/Icons/icon_1_100.png" alt="Design Icon"></div>
                         <h2>Web Design</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores doloribus minus perferendis voluptatum tempore doloremque modi. Quae laboriosam tenetur quam?</p>
                     </div>  
-                    <div class="service-item">
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="100">
                         <div class="icon"><img src="/Images/Icons/icon_1_100.png" alt="Design Icon"></div>
                         <h2>Web Design</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores doloribus minus perferendis voluptatum tempore doloremque modi. Quae laboriosam tenetur quam?</p>
                     </div>  
-                    <div class="service-item">
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="150">
                         <div class="icon"><img src="/Images/Icons/icon_1_100.png" alt="Design Icon"></div>
                         <h2>Web Design</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores doloribus minus perferendis voluptatum tempore doloremque modi. Quae laboriosam tenetur quam?</p>
                     </div>  
-                    <div class="service-item">
+                    <div class="service-item" data-aos="fade-right" data-aos-delay="200">
                         <div class="icon"><img src="/Images/Icons/icon_1_100.png" alt="Design Icon"></div>
                         <h2>Web Design</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores doloribus minus perferendis voluptatum tempore doloremque modi. Quae laboriosam tenetur quam?</p>
@@ -82,7 +83,7 @@
                     <h1 class="section-title">Recent Projects</h1>
                 </div>
                 <div class="all-projects">
-                    <div class="project-item">
+                    <div class="project-item"  data-aos="zoom-in" data-aos-delay="80">
                         <div class="project-info">
                             <h1>Project 1</h1>
                             <h2>Coding is love</h2>
@@ -92,7 +93,7 @@
                             <img src="/Images/coding_background_projects.jpg" alt="Project Image">
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item" data-aos="zoom-in" data-aos-delay="80">
                         <div class="project-info">
                             <h1>Project 2</h1>
                             <h2>Coding is love</h2>
@@ -102,7 +103,7 @@
                             <img src="/Images/coding_background_projects.jpg" alt="Project Image">
                         </div>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item" data-aos="zoom-in" data-aos-delay="80">
                         <div class="project-info">
                             <h1>Project 3</h1>
                             <h2>Coding is love</h2>
@@ -118,7 +119,7 @@
 
         <section id="about">
             <div class="about container">
-                <div class="col-left">
+                <div class="col-left" data-aos="fade-right" data-aos-delay="80">
                     <div class="about-image">
                         <img src="/Images/Jeram.jpg" alt="Image of the creator">
                     </div>
@@ -135,7 +136,7 @@
         <section id="contact">
             <div class="contact container">
                 <div><h1 class="section-title">Contact Info</h1></div>
-                <div class="contact-items">
+                <div class="contact-items"  data-aos="flip-up" data-aos-delay="120">
                     <div class="contact-item">
                         <div class="icon"><img src="/Images/Icons/icons-phone-100.png" alt="Phone Icon"></div>
                         <div class="contact-info">
@@ -167,7 +168,7 @@
     <footer>
         <section id="footer">
             <div class="footer container">
-                <div class="brand"><h1><a href="#hero" title="Profile">Jeram Calbe</a></h1></div>
+                <div class="brand"><h1>Jeram Calbe</h1></div>
                 <h2>A Beginner</h2>
                 <div class="social-icons">
                     <div class="social-item">
@@ -189,5 +190,9 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
