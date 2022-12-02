@@ -58,13 +58,15 @@ p {
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
-    transition: .3s ease;
-    transition-property: backgrond-color, color;
+    box-shadow: inset 0 0 0 0 crimson;
+    transition: ease-out .3s;
+    /* transition: .3s ease; */
+    /* transition-property: background-color, color; */
 }
 
 .portfolio:hover {
     color: white;
-    background-color: crimson;
+    box-shadow: inset 300px 0 0 0 crimson;
 }
 
 .brand h1 {
@@ -288,6 +290,12 @@ p {
     animation-delay: 2.5s;
 }
 
+#hero .socials {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
 #services .service-item p {
     color: white;
     text-align: left;
@@ -478,12 +486,15 @@ p {
     margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem;
-    transition: .3s ease;
-    transition-property: background-color, color;
+    /* transition: .3s ease; */
+    /* transition-property: background-color, color; */
+    box-shadow: inset 0 0 0 0 crimson;
+    transition: ease-out .3s;
 }
 
 #about .col-right .portfolio:hover {
     color: white;
+    box-shadow: inset 300px 0 0 0 crimson;
 }
 
 #about .col-left .about-image {
