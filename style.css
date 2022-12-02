@@ -291,9 +291,20 @@ p {
 }
 
 #hero .socials {
+    display: flex;
+    margin-top: 20px;
+}
+
+#hero .social-icon-item {
     height: 50px;
     width: 50px;
-    margin-top: 10px;
+    margin: 0 5px;
+}
+
+#hero .social-icon-item:hover {
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px crimson;
+    opacity: 0.7;
 }
 
 #services .service-item p {
@@ -517,86 +528,23 @@ p {
 /* end about me section */
 
 
-/* contact section */
-#contact .contact {
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#contact .contact-items {
-    width: 400px;
-}
-
-#contact .contact-item {
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0px 0px 10px 0 rgb(36, 36, 36);
-    transition: .3s ease box-shadow;
-    /* background-image: url(/Images/coding_background.jpg); */
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-}
-
-#contact .contact-item:hover {
-    box-shadow: 0px 0px 15px 0 crimson;
-}
-
-#contact .icon {
-    width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-#contact .contact-info h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 5px;
-    color: crimson;
-}
-
-#contact .contact-info h2 {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    font-weight: 500;
-    color: white;
-}
-
-#contact .contact-info h2:hover {
-    color: crimson;
-    text-decoration: underline;
-}
-
-#contact .contact-info address {
-    color: white;
-}
-/* end contact section */
-
-
 /* footer section */
-#footer {
+#contact {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 
-#footer .footer {
+#contact .contact {
     min-height: 200px;
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 10px;
 }
 
-#footer .brand h1 a {
+#contact .brand h1 a {
     color: white;
 }
 
-#footer h2 {
+#contact h2 {
     color: white;
     font-weight: 500;
     font-size: 1.8rem;
@@ -605,27 +553,7 @@ p {
     margin-bottom: 10px;
 }
 
-#footer .social-icons {
-    display: flex;
-    margin-bottom: 30px;
-}
-
-#footer .social-item {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 0 5px;
-}
-
-#footer .social-item img {
-    filter: grayscale(1);
-    transition: .3s ease filter;
-}
-
-#footer .social-item:hover img {
-    filter: grayscale(0);
-}
-
-#footer p {
+#contact p {
     font-size: 1.3rem;
     color: white;
 }
@@ -743,45 +671,6 @@ p {
         text-align: left;
     }
     /* end about */
-
-    /* contact section */
-    #contact .contact {
-        flex-direction: column;
-        padding: 100px 0;
-        align-items: center;
-        justify-content: center;
-        min-width: 20vh;
-    }
-
-    #contact .contact-items {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0;
-    }
-
-    #contact .contact-item {
-        width: 30%;
-        margin: 0;
-        flex-direction: row;
-    }
-
-    #contact .contact-item .icon {
-        height: 100px;
-        width: 100px;
-    }
-
-    #contact .contact-item .icon img {
-        object-fit: contain;
-    }
-
-    #contact .contact-item .contact-info {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
-    }
-    /* end contact section */
 }
 
 /* end media query for tablets */
