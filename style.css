@@ -30,7 +30,7 @@ img {
 }
 
 p {
-    color: black;
+    color: white;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -42,10 +42,13 @@ p {
     font-size: 4rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, white);
+    line-height: 0.70em;
+    animation: glow 3s linear infinite;
 }
 
 .portfolio {
@@ -141,11 +144,11 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgba(240, 248, 255, 0.021);
+    color: rgba(242, 255, 240, 0.021);
     font-size: 11rem;
     letter-spacing: 50px;
     z-index: -1;
-    transition: .3s ease letter-spacing;
+    transition: 1s ease letter-spacing;
 }
 
 #header .nav-list ul li:hover a::after {
@@ -171,7 +174,7 @@ p {
     cursor: pointer;
     transform: scale(.8);
     margin-right: 20px;
-    animation: hamburger_pulse 1s ease infinite
+    animation: hamburger_pulse 1s ease infinite;
 }
 
 #header .hamburger::after {
@@ -180,7 +183,7 @@ p {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 3px solid white
+    border: 3px solid rgba(255, 255, 255, 0.996)
 }
 
 #header .hamburger .bar {
@@ -256,7 +259,7 @@ p {
     font-size: 4rem;
     position: relative;
     color: transparent;
-    animation: text_reveal .5s ease forwards;
+    animation: glow .5s ease forwards;
     animation-delay: 1s;
 }
 
@@ -267,11 +270,11 @@ p {
     animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
-    animation: text_reveal_name .5s ease forwards;
+    animation: glow 1s linear infinite;
     animation-delay: 3s;
 }
 
-#hero h1 span {
+/* #hero h1 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -280,7 +283,7 @@ p {
     background-color: crimson;
     animation: text_reveal_box 1s ease;
     animation-delay: 1s;
-}
+} */
 
 #hero h1:nth-child(1) span {
     animation-delay: .5s;
@@ -304,6 +307,9 @@ p {
     height: 50px;
     width: 50px;
     margin: 0 5px;
+    /* -webkit-box-reflect: below -10px linear-gradient(transparent, white);
+    line-height: 1rem;
+    animation: glow 3s linear infinite; */
 }
 
 #hero .facebook-icon-item:hover {
@@ -355,9 +361,11 @@ p {
 #services .service {
     flex-direction: column;
     text-align: center;
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: 0 auto;
     padding: 100px 0;
+    background-image: linear-gradient(60deg, #263f65 0%, #607994 100%);
+    /* z-index: -1; */
 }
 
 #services .service-top {
@@ -418,9 +426,10 @@ p {
 /* projects section */
 #projects .projects {
     flex-direction: column;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 20px;
+    background-image: linear-gradient(60deg, #263f65 0%, #607994 100%);
 }
 
 #projects .projects-header h1 {
@@ -504,9 +513,10 @@ p {
 #about .about {
     flex-direction: column-reverse;
     text-align: center;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 100px 20px;
+    background-image: linear-gradient(60deg, #263f65 0%, #607994 100%);
 }
 
 #about .col-left {
@@ -523,6 +533,7 @@ p {
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 10px;
+    color: white;
 }
 
 #about .col-right p {
@@ -587,6 +598,10 @@ p {
     box-shadow: 0px 0px 25px rgb(65, 255, 2);
 }
 
+#contact .contact-item:active {
+    opacity: 0.4;
+}
+
 #contact .contact {
     min-height: 200px;
     flex-direction: column;
@@ -647,6 +662,21 @@ p {
     100% {
         color: crimson;
         font-weight: 500px ;
+    }
+}
+
+@keyframes glow {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+        color: #0e3742;
+        box-shadow: none;
+    }
+    18%, 20%, 30%, 50%, 60%, 65%, 80%, 90%, 92%, 100% {
+        color: #fff;
+        text-shadow: 0 0 10px #4aef57,
+        0 0 20px #4aef57,
+        0 0 40px #4aef57,
+        0 0 80px #4aef57,
+        0 0 160px #4aef57;
     }
 }
 /* end of keyframes */
