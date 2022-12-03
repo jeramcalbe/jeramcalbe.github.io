@@ -308,32 +308,24 @@ p {
 
 #hero .facebook-icon-item:hover {
     border-radius: 5px;
-    /* background-color: rgb(72, 255, 0);
-    box-shadow: 0px 0px 25px rgb(65, 255, 2); */
     background-color: rgb(39,103,161);
     box-shadow: 0px 0px 25px rgb(118, 195, 243);
     opacity: 0.7;
 }
 #hero .github-icon-item:hover {
     border-radius: 25px;
-    /* background-color: rgb(72, 255, 0);
-    box-shadow: 0px 0px 25px rgb(65, 255, 2); */
     background-color: rgb(88,93,109);
     box-shadow: 0px 0px 25px rgb(231, 229, 229);
     opacity: 0.7;
 }
 #hero .linkedin-icon-item:hover {
     border-radius: 5px;
-    /* background-color: rgb(72, 255, 0);
-    box-shadow: 0px 0px 25px rgb(65, 255, 2); */
     background-color: rgb(28, 147, 237);
     box-shadow: 0px 0px 25px rgb(77, 179, 243);
     opacity: 0.7;
 }
 #hero .discord-icon-item:hover {
     border-radius: 15px;
-    /* background-color: rgb(72, 255, 0);
-    box-shadow: 0px 0px 25px rgb(65, 255, 2); */
     background-color: rgb(77,68,193);
     box-shadow: 0px 0px 25px rgb(107, 99, 225);
     opacity: 0.7;
