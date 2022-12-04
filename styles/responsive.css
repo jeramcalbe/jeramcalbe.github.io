@@ -1,0 +1,83 @@
+/* media query for tablets */
+@media only screen and (min-width:768px) {
+    #hero .resume {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+    h1.section-title {
+        font-size: 6rem;
+    }
+
+    /* hero */
+    #hero h1 {
+        font-size: 7rem;
+    }
+    /* end hero */
+
+    /* service section */
+    #services .service-bottom .service-item {
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+    /* end service section */
+
+    /* projects section */
+    #projects .project-item {
+        flex-direction: row;
+    }
+    #projects .project-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    #projects .project-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #projects .all-projects .project-info {
+        height: 100%;
+    }
+
+    #projects .all-projects .project-image {
+        height: 100%;
+    }
+    /* projects section */
+}
+/* end media query for tablets */
+
+
+/* media query for desktop */
+@media only screen and (min-width:1200px) {
+    /* header */
+    #header .hamburger {
+        display: none;
+    }
+
+    #header .nav-list ul {
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    #header .nav-list ul li a {
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    #header .nav-list ul li {
+        display: inline-block;
+    }
+
+    #header .nav-list ul a:after {
+        display: none;
+    }
+    /* end header */
+    #services .service-bottom .service-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+}
+/* end media query for desktop */

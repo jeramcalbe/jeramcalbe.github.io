@@ -1,0 +1,17 @@
+#skills .skills {
+    flex-direction: column;
+    text-align: center;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: white;
+}
+
+#skills .skills-icons {
+    display: flex;
+}
+
+#skills .skills-item {
+    width: 90px;
+    height: 90px;
+    margin: 0 10px;
+}
