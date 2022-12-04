@@ -42,7 +42,7 @@
     animation-delay: 2s;
 }
 #hero h1:nth-child(3) {
-    animation: glow 1s linear infinite;
+    /* animation: glow 1s linear infinite; */
     animation-delay: 3s;
 }
 

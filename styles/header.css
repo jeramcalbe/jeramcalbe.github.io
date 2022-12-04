@@ -13,9 +13,7 @@
     color: white;
     text-shadow: 0 0 10px #4aef57,
         0 0 20px #4aef57,
-        0 0 40px #4aef57,
-        0 0 80px #4aef57,
-        0 0 160px #4aef57;
+        0 0 30px #4aef57;
 }
 
 #header .header {
@@ -90,9 +88,7 @@
     color: #4aef57;
     text-shadow: 0 0 10px #4aef57,
         0 0 20px #4aef57,
-        0 0 40px #4aef57,
-        0 0 80px #4aef57,
-        0 0 160px #4aef57;
+        0 0 30px #4aef57;
 }
 
 #header .hamburger {
