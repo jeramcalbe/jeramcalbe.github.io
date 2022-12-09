@@ -11,9 +11,9 @@
     font-size: 3rem;
     text-transform: uppercase;
     color: white;
-    text-shadow: 0 0 10px #4aef57,
-        0 0 20px #4aef57,
-        0 0 30px #4aef57;
+    text-shadow: 0 0 10px #00d9ff,
+        0 0 20px #00d9ff,
+        0 0 30px #00d9ff;
 }
 
 #header .header {
@@ -60,7 +60,7 @@
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #00d9ff;
     text-transform: uppercase;
     padding: 20px;
     display: block;
@@ -85,10 +85,10 @@
 }
 
 #header .nav-list ul li a:hover {
-    color: #4aef57;
-    text-shadow: 0 0 10px #4aef57,
-        0 0 20px #4aef57,
-        0 0 30px #4aef57;
+    color: #00d9ff;
+    text-shadow: 0 0 10px #00d9ff,
+        0 0 20px #00d9ff,
+        0 0 30px #00d9ff;
 }
 
 #header .hamburger {
