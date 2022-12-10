@@ -11,27 +11,6 @@
         0 0 30px #00d9ff;
 }
 
-#contact .contact-icons {
-    display: flex;
-}
-
-#contact .contact-item {
-    width: 50px;
-    height: 50px;
-    margin: 0 5px;
-    transition: transform .3s;
-}
-
-#contact .contact-item:hover {
-    border-radius: 20px;
-    transform: translateY(-10%);
-    
-}
-
-#contact .contact-item:active {
-    opacity: 0.4;
-}
-
 #contact .contact {
     min-height: 200px;
     flex-direction: column;
@@ -56,3 +35,107 @@
     font-size: 1.3rem;
     color: white;
 }
+
+#contact .contact-icons {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+/* Phone */
+#contact .phone {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    transition: transform .3s;
+}
+
+#contact .phone:hover:after {
+    content: 'Phone';
+    position: relative;
+    bottom: 2px;
+    left: 4px;
+    color: white;
+    text-shadow: 0 0 10px #00d9ff,
+        0 0 30px #00d9ff,
+        0 0 40px #00d9ff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: Quantico, Helvetica, sans-serif;
+}
+
+#contact .phone:hover {
+    border-radius: 20px;
+    transform: translateY(-10%);
+    opacity: 0.7;
+}
+
+#contact .phone:active {
+    opacity: 0.4;
+}
+/* ------------------------------  */
+
+/* Email */
+#contact .email {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    transition: transform .3s;
+}
+
+#contact .email:hover:after {
+    content: 'Email';
+    position: relative;
+    bottom: 2px;
+    left: 6px;
+    color: white;
+    text-shadow: 0 0 10px #00d9ff,
+        0 0 30px #00d9ff,
+        0 0 40px #00d9ff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: Quantico, Helvetica, sans-serif;
+}
+
+#contact .email:hover {
+    border-radius: 20px;
+    transform: translateY(-10%);
+    opacity: 0.7;
+}
+
+#contact .email:active {
+    opacity: 0.4;
+}
+/* ------------------------------  */
+
+/* Whatsapp */
+#contact .whatsapp {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    transition: transform .3s;
+}
+
+#contact .whatsapp:hover:after {
+    content: 'Whatsapp';
+    position: relative;
+    bottom: 2px;
+    right: 12px;
+    color: white;
+    text-shadow: 0 0 10px #00d9ff,
+        0 0 30px #00d9ff,
+        0 0 40px #00d9ff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: Quantico, Helvetica, sans-serif;
+}
+
+#contact .whatsapp:hover {
+    border-radius: 20px;
+    transform: translateY(-10%);
+    opacity: 0.7;
+}
+
+#contact .whatsapp:active {
+    opacity: 0.4;
+}
+/* ------------------------------  */

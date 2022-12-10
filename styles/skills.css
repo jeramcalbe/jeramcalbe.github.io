@@ -14,4 +14,10 @@
     width: 90px;
     height: 90px;
     margin: 0 10px;
+    transition: .3s;
+}
+
+#skills .skills-item:hover {
+    transform: translateY(-15px);
+    transition: .3s;
 }
