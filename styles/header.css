@@ -51,7 +51,7 @@
     transition: .5s ease left;
 }
 
-#header .nav-list ul.active {
+#header .nav-list ul.open {
     left: 0%;
 }
 
@@ -89,7 +89,24 @@
     color: #00d9ff;
 }
 
-#header .hamburger {
+#header .navigation-bar .nav-list .toggle-nav-list {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    position: relative;
+    right: 0px;
+    z-index: 100;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#header .navigation-bar .nav-list .toggle-nav-list.open {
+    transform: rotateY(180deg);
+    transition: .5s;
+}
+
+
+/* #header .hamburger {
     height: 50px;
     width: 50px;
     display: inline-block;
@@ -145,4 +162,4 @@
 
 #header .hamburger.active .bar::after {
     top: 0;
-}
+} */

@@ -46,12 +46,11 @@ p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
-    font-family: 'Black Ops One';
 }
 
 .section-title,
 #header .brand1 h1, 
 #hero h1,
 #header .nav-list ul a::after {
-    font-family: 'Black Ops One';
+    font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
 }
