@@ -72,7 +72,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgba(242, 255, 240, 0.021);
+    color: #00d9ff;
+    opacity: 0.2;
     font-size: 11rem;
     letter-spacing: 50px;
     z-index: -1;
@@ -86,9 +87,6 @@
 
 #header .nav-list ul li a:hover {
     color: #00d9ff;
-    text-shadow: 0 0 10px #00d9ff,
-        0 0 20px #00d9ff,
-        0 0 30px #00d9ff;
 }
 
 #header .hamburger {

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Quantico:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@400;500;700&family=Quantico:wght@400;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +7,7 @@
 
 html {
     font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -48,4 +46,12 @@ p {
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    font-family: 'Black Ops One';
+}
+
+.section-title,
+#header .brand1 h1, 
+#hero h1,
+#header .nav-list ul a::after {
+    font-family: 'Black Ops One';
 }

@@ -11,8 +11,8 @@
 }
 
 #skills .skills-item {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     margin: 0 10px;
     transition: .3s;
 }

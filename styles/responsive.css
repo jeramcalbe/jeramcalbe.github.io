@@ -43,6 +43,11 @@
         height: 100%;
     }
     /* projects section */
+
+    #skills .skills-item {
+        width: 70px;
+        height: 70px;
+    } 
 }
 /* end media query for tablets */
 
@@ -78,6 +83,11 @@
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
+    }
+
+    #skills .skills-item {
+        width: 90px;
+        height: 90px;
     }
 }
 /* end media query for desktop */
